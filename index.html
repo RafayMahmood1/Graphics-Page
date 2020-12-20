@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,inital-scale=1.0">
+    <title>Rafay's Page</title>
+    <link rel="icon" href="a.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="logo.png" class="logo" alt="tools picture"></a>
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">What's New</a></li>
+            </ul>
+
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not about Editing<br>It's about <span>Creativity</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reprehenderit deserunt nostrum sit ut
+                    enim cumque, voluptate debitis ex, explicabo, aut facilis sunt optio laborum quod inventore!
+                    Reiciendis, impedit eos!</p>
+                <a href="https://www.upwork.com/freelancers/~0163dcc03db136033a?viewMode=1">Learn More</a>
+            </div>
+            <div class="imgBox">
+                
+                <img src="wolf.png" alt="My Picture" class="Pic">
+            </div>
+
+        </div>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/rafaymahmood6"><img src="facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://www.instagram.com/rafaymahmood/"><img src="instagram.png" alt="Instagram"></a>
+            </li>
+            <li><a href="#"><img src="twitter.png" alt="Twitter"></a></li>
+        </ul>
+
+    </section>
+
+    <script type="text/javascript">
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
